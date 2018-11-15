@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/*----------------------------------------
+SOBREESCRIBIENDO  LOS ESTILOS DE BOOTSTRAP
+------------------------------------------*/
+.bg-primary {
+  background-color: #008442 !important; }
+
+.text-primary {
+  color: #008442 !important; }
+
+.btn-primary {
+  background-color: #008442 !important;
+  border-color: #001e0f !important; }
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #005129 !important; }
+
+.btn-primary:active {
+  background-color: #001e0f !important;
+  border-color: black !important; }
+
+.btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 132, 66, 0.5) !important;
+          box-shadow: 0 0 0 0.2rem rgba(0, 132, 66, 0.5) !important; }
+
+/*--------------------------
+ESTILOS DEL DISEÑO
+---------------------------*/
+html {
+  font-size: 13px; }
+
+body {
+  color: #44484a;
+  font-family: 'Open Sans', sans-serif; }
+
+.card:hover {
+  -webkit-box-shadow: 0 0 10px #0c0c0c3b;
+          box-shadow: 0 0 10px #0c0c0c3b; }
+
+/*.row{
+	border: 1px solid blue;
+}
+
+
+.col{
+	border: 1px solid red;
+}*/
+#contenedor_categoria {
+  background-color: #ffecec; }
+
+/*------------------------
+SHOW DE LOS MEDIAS QUERIES
+------------------------*/
+@media (min-width: 768px) {
+  html {
+    font-size: 16px; } }
+
+/*# sourceMappingURL=estilos.css.map */
