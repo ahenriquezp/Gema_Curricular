@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAQA,kBAAkB;EACjB,gBAAgB,EAJL,OAAO",
+"sources": ["../scss/perfil_egreso.scss"],
+"names": [],
+"file": "perfil_egreso.css"
+}

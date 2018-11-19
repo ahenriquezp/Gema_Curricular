@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAOA,kBAAkB;EACjB,gBAAgB,EAHL,OAAO;;AAQnB;;;;;;GAMG;AAEH,iBAAiB;EAChB,gBAAgB,EAAE,kBAAkB;;AAGrC,iBAAiB;EAChB,gBAAgB,EAAE,kBAAkB",
+"sources": ["../scss/estilos_categoria.scss"],
+"names": [],
+"file": "estilos_categoria.css"
+}
