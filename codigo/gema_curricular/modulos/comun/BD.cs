@@ -6,7 +6,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Configuration;
 
-namespace gema_curricular_estructura.clases.comun
+namespace gema_curricular.comun
 {
     internal class BD
     {

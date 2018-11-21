@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Configuration;
 using System.Linq;
@@ -14,7 +15,7 @@ namespace gema_curricular_malla.entidades
 {
     public class Categoria
     {
-        public int Id;
+        public int ID;
         public string Nombre;
         public Tipo_categoria Tipo;
         public float Peso;
@@ -23,7 +24,7 @@ namespace gema_curricular_malla.entidades
 
         public Categoria(int id, string nombre, Tipo_categoria tipo, float peso)
         {
-            this.Id = id;
+            this.ID = id;
             this.Nombre = nombre;
             this.Tipo = tipo;
             this.Peso = peso;

@@ -3,10 +3,10 @@ using System.Data;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using gema_curricular_estructura.clases.comun;
-using gema_curricular_estructura.clases.entidades;
+using gema_curricular.comun;
+using gema_curricular_estructura.entidades;
 
-namespace gema_curricular_estructura.clases.datos
+namespace gema_curricular_estructura.datos
 {
     public class DAO_Nombre_Grupo
     {
