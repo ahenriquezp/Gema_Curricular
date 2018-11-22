@@ -87,6 +87,11 @@
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="modulos\comun\BD.cs" />
+    <Compile Include="modulos\estructura\negocio\Gestor_Asignatura.cs" />
+    <Compile Include="modulos\estructura\negocio\Gestor_Carrera.cs" />
+    <Compile Include="modulos\estructura\negocio\Gestor_Nombre_Grupo.cs" />
+    <Compile Include="modulos\estructura\negocio\Gestor_Seccion.cs" />
+    <Compile Include="modulos\estructura\negocio\Gestor_Usuario.cs" />
     <Compile Include="modulos\malla\datos\DAO_Perfil_egreso.cs" />
     <Compile Include="modulos\malla\datos\DAO_Categoria.cs" />
     <Compile Include="modulos\estructura\datos\DAO_Asignatura.cs" />
@@ -102,6 +107,8 @@
     <Compile Include="modulos\estructura\entidades\Usuario.cs" />
     <Compile Include="modulos\malla\entidades\Categoria.cs" />
     <Compile Include="modulos\malla\entidades\Perfil_egreso.cs" />
+    <Compile Include="modulos\malla\negocio\Gestor_Categoria.cs" />
+    <Compile Include="modulos\malla\negocio\Gestor_Perfil_egreso.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -115,7 +122,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="modulos\malla\negocio\" />
     <Folder Include="modulos\Sitio\paginas\comunicadores\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
