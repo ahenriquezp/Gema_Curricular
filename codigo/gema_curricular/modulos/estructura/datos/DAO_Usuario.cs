@@ -54,7 +54,6 @@ namespace gema_curricular_estructura.datos
                                     "id_perfil=" + Convert.ToInt32(usuario.Perfil).ToString() + ", " +
                                     "sexo='" + usuario.Sexo + "', " +
                                     "fecha_nacimiento=" + bd.Formatear_fecha(usuario.Fecha_nacimiento) + ", " +
-                                    "fecha_creacion=" + bd.Formatear_fecha(usuario.Fecha_creacion) + ", " +
                                     "eliminado=" + Convert.ToInt32(usuario.Eliminado).ToString() + " " +
                                     "where id= " + usuario.ID;
 

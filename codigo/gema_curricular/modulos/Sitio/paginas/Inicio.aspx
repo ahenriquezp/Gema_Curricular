@@ -6,6 +6,14 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+  
+  
+    <!-- INICIO ARCHIVOS JQUERY-UI -->
+    <link rel="stylesheet" href="../js/jquery-ui/jquery-ui-1.11.4.custom/jquery-ui.min.css">
+    <script src="../js/jquery-ui/jquery-ui-1.11.4.custom/external/jquery/jquery.js"></script>
+    <script src="../js/jquery-ui/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+    <!-- FIN ARCHIVOS JQUERY-UI -->
+  
 
   <!-- FUENTES DE GOOGLE FONT -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">

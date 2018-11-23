@@ -1,0 +1,1 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Comunicador.aspx.cs" Inherits="gema_curricular.web.Comunicador" %>

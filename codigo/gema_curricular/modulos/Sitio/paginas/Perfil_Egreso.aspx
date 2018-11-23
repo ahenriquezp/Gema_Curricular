@@ -6,6 +6,16 @@
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    
+    
+    <!-- INICIO ARCHIVOS JQUERY-UI -->
+    <link rel="stylesheet" href="../js/jquery-ui/jquery-ui-1.11.4.custom/jquery-ui.min.css">
+    <script src="../js/jquery-ui/jquery-ui-1.11.4.custom/external/jquery/jquery.js"></script>
+    <script src="../js/jquery-ui/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+    <!-- FIN ARCHIVOS JQUERY-UI -->
+    
+    
 
 	<!-- ARCHIVOS CSS BOOTSTRAP 4 -->
  	<link type="text/css" rel="stylesheet" href="../css/bootstrap.min.css">
