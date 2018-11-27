@@ -8,11 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace gema_curricular
+namespace gema_curricular.web
 {
 
 
-    public partial class _Default
+    public partial class Comunicador
     {
 
         /// <summary>
