@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Categorias.aspx.cs" Inherits="gema_curricular.web.Categorias" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Categorias.aspx.cs" Inherits="gema_curricular.web.Categorias" %>
 
 <!DOCTYPE html>
 <html lang="es">

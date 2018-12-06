@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Perfil_Egreso.aspx.cs" Inherits="gema_curricular.web.Perfil_Egreso" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Perfil_Egreso.aspx.cs" Inherits="gema_curricular.web.Perfil_Egreso" %>
 
 <!doctype html>
 <html lang="es">
