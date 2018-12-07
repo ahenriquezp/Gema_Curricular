@@ -34,5 +34,10 @@ namespace gema_curricular_malla.entidades
     }
 
 
-    public enum Tipo_categoria { };
+    public enum Tipo_categoria : int
+    {
+        maraca = 1,
+        bongo = 2,
+        claves = 3
+    };
 }
