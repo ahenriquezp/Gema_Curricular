@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using gema_curricular_malla.entidades;
 
 namespace gema_curricular_evaluaciones.entidades
 {

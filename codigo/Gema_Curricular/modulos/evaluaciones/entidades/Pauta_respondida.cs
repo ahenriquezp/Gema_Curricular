@@ -13,8 +13,8 @@ namespace gema_curricular_evaluaciones.entidades
         public DateTime Fecha_respuesta;
         
         public List<Respuesta> Lista_respuestas;
-        
-        public Pauta(int ID, int ID_pauta, int ID_estudiante, DateTime Fecha_respuesta)
+
+        public Pauta_respondida(int ID, int ID_pauta, int ID_estudiante, DateTime Fecha_respuesta)
         {
             this.ID = ID;
             this.ID_pauta = ID_pauta;

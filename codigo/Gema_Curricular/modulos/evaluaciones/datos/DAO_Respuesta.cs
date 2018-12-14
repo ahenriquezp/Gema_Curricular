@@ -25,7 +25,7 @@ namespace gema_curricular_evaluaciones.datos
             string consulta = "select 1 from respuesta where id_pauta_respondida=" + respuesta.ID_pauta_respondida + 
                               " and id_pregunta=" + respuesta.ID_pregunta;
                               
-            DataTable dt = bd.Ejecutar_comando(consulta);
+            DataTable dt = bd.Ejecutar_consulta(consulta);
             
             if(dt.Rows.Count == 0)
             {
@@ -36,36 +36,28 @@ namespace gema_curricular_evaluaciones.datos
                 Modificar(respuesta);
             }    
         }
-        
-        
+
+
         private void Agregar(Respuesta respuesta)
         {
-            if (!Existe(respuesta))
-            {
-                string consulta = "insert into respuesta(id_pauta_respondida, id_pregunta, respuesta, nota) " +
-                                  "values (" + respuesta.ID_pauta_respondida + ", " + respuesta.ID_pregunta + ", '" + 
-                                  respuesta.Respuesta + "', " + respuesta.Nota + ")";
+            string consulta = "insert into respuesta(id_pauta_respondida, id_pregunta, respuesta, nota) " +
+                              "values (" + respuesta.ID_pauta_respondida + ", " + respuesta.ID_pregunta + ", '" +
+                              respuesta.Texto_respuesta + "', " + respuesta.Nota + ")";
 
-                bd.Ejecutar_comando(consulta);
-                bd.Cerrar();
-            }
-            else throw new Exception("La respuesta ya está registrada en el sistema");
+            bd.Ejecutar_comando(consulta);
+            bd.Cerrar();
         }
-        
+
         private void Modificar(Respuesta respuesta)
         {
-            if (!Existe(respuesta))
-            {
-                string consulta =   "update respuesta " +
-                                    "set respuesta='" + respuesta.Respuesta + "', " +
-                                    "nota=" + respuesta.Nota + " " +
-                                    "where id_pauta_respondida=" + respuesta.ID_pauta_respondida + " " +
-                                    "and id_pregunta=" + respuesta.ID_pregunta;
+            string consulta = "update respuesta " +
+                                "set respuesta='" + respuesta.Texto_respuesta + "', " +
+                                "nota=" + respuesta.Nota + " " +
+                                "where id_pauta_respondida=" + respuesta.ID_pauta_respondida + " " +
+                                "and id_pregunta=" + respuesta.ID_pregunta;
 
-                bd.Ejecutar_comando(consulta);
-                bd.Cerrar();
-            }
-            else throw new Exception("La respuesta ya está registrada en el sistema");
+            bd.Ejecutar_comando(consulta);
+            bd.Cerrar();
         }
         
         public void Eliminar(int id_pauta_respondida, int id_pregunta)
